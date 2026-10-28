@@ -1,0 +1,147 @@
+product_id  name                                  description                                                                                                            price  manufacturer       
+----------  ------------------------------------  ---------------------------------------------------------------------------------------------------------------------  -----  -------------------
+1           Atomic Nose Hair Trimmer              Trim your nose hairs with the precision of an atomic clock!                                                            19.99  Mad Inventors Inc. 
+2           Selfie Toaster                        Get your face on your toast every morning with our selfie toaster!                                                     24.99  Goofy Gadgets Corp.
+3           Cat-Poop Coffee                       The only coffee made from the finest cat poop beans!                                                                   29.99  Absurd Accessories 
+4           Inflatable Briefcase                  Need more storage space? Inflate our briefcase to double its size!                                                     39.99  Wacky Wares Ltd.   
+5           Unicorn Horn Polish                   Keep your unicorn's horn shiny and smooth with our magical polish!                                                     9.99   Silly Supplies Co. 
+6           The Mind Probe                        A device from Star Wars that can extract information directly from a person's mind.                                    19.99  Mad Inventors Inc. 
+7           Lightsabers                           Elegant and deadly energy swords wielded by Jedi and Sith alike.                                                       25     Mad Inventors Inc. 
+8           The Sonic Screwdriver                 A versatile tool capable of performing a wide variety of tasks, from unlocking doors to repairing electronics.         15.1   Absurd Accessories 
+9           The Infinite Improbability Generator  A device that can create impossible and absurd events, such as a spaceship suddenly turning into a giant sperm whale.  9.99   Silly Supplies Co. 
+10          The Neuralyzer                        A flashy device that erases people's memories of specific events or encounters.                                        33.55  Silly Supplies Co. 
+
+review_id  product_id  review_text                                                        datetime           
+---------  ----------  -----------------------------------------------------------------  -------------------
+1          3           Great product, would definitely recommend!                         2022-01-01 12:30:00
+2          5           This is the best thing I have ever bought!                         2022-01-02 13:45:00
+3          2           Not worth the money, would not recommend                           2022-01-03 14:15:00
+4          4           Disappointing purchase. Wouldn't buy again.                        2022-01-04 15:00:00
+5          1           Decent product for the price, happy with my purchase               2022-01-05 16:30:00
+6          2           Really impressed with the quality of this product!                 2022-01-06 17:00:00
+7          4           Great value for the price, would buy again                         2022-01-07 18:15:00
+8          3           Not the best quality, but it gets the job done                     2022-01-08 19:00:00
+9          5           I am really happy with this purchase, it exceeded my expectations  2022-01-09 20:30:00
+10         1           Would not recommend this product, very disappointing               2022-01-10 21:00:00
+11         3           This product is great, I use it every day!                         2022-01-11 22:15:00
+12         5           I would definitely buy this again, great value for the price       2022-01-12 23:00:00
+
+review_id  product_id  review_text                                         datetime             product_id  name            description                                                         price  manufacturer       
+---------  ----------  --------------------------------------------------  -------------------  ----------  --------------  ------------------------------------------------------------------  -----  -------------------
+6          2           Really impressed with the quality of this product!  2022-01-06 17:00:00  2           Selfie Toaster  Get your face on your toast every morning with our selfie toaster!  24.99  Goofy Gadgets Corp.
+
+
+name                      price  review_id  review_text                                                      
+------------------------  -----  ---------  -----------------------------------------------------------------
+Cat-Poop Coffee           29.99  1          Great product, would definitely recommend!                       
+Unicorn Horn Polish       9.99   2          This is the best thing I have ever bought!                       
+Selfie Toaster            24.99  3          Not worth the money, would not recommend                         
+Inflatable Briefcase      39.99  4          Disappointing purchase. Wouldn't buy again.                      
+Atomic Nose Hair Trimmer  19.99  5          Decent product for the price, happy with my purchase             
+Selfie Toaster            24.99  6          Really impressed with the quality of this product!               
+Inflatable Briefcase      39.99  7          Great value for the price, would buy again                       
+Cat-Poop Coffee           29.99  8          Not the best quality, but it gets the job done                   
+Unicorn Horn Polish       9.99   9          I am really happy with this purchase, it exceeded my expectations
+Atomic Nose Hair Trimmer  19.99  10         Would not recommend this product, very disappointing             
+Cat-Poop Coffee           29.99  11         This product is great, I use it every day!                       
+Unicorn Horn Polish       9.99   12         I would definitely buy this again, great value for the price     
+
+name            review_id  review_text                                       
+--------------  ---------  --------------------------------------------------
+Selfie Toaster  3          Not worth the money, would not recommend          
+Selfie Toaster  6          Really impressed with the quality of this product!
+
+name                  review_text                                                 
+--------------------  ------------------------------------------------------------
+Cat-Poop Coffee       Great product, would definitely recommend!                  
+Inflatable Briefcase  Great value for the price, would buy again                  
+Cat-Poop Coffee       This product is great, I use it every day!                  
+Unicorn Horn Polish   I would definitely buy this again, great value for the price
+
+manufacturer        name                      review_id  review_text                                         
+------------------  ------------------------  ---------  ----------------------------------------------------
+Mad Inventors Inc.  Atomic Nose Hair Trimmer  5          Decent product for the price, happy with my purchase
+Mad Inventors Inc.  Atomic Nose Hair Trimmer  10         Would not recommend this product, very disappointing
+
+name                                  review_id  review_text                                                      
+------------------------------------  ---------  -----------------------------------------------------------------
+Atomic Nose Hair Trimmer              5          Decent product for the price, happy with my purchase             
+Atomic Nose Hair Trimmer              10         Would not recommend this product, very disappointing             
+Selfie Toaster                        3          Not worth the money, would not recommend                         
+Selfie Toaster                        6          Really impressed with the quality of this product!               
+Cat-Poop Coffee                       1          Great product, would definitely recommend!                       
+Cat-Poop Coffee                       8          Not the best quality, but it gets the job done                   
+Cat-Poop Coffee                       11         This product is great, I use it every day!                       
+Inflatable Briefcase                  4          Disappointing purchase. Wouldn't buy again.                      
+Inflatable Briefcase                  7          Great value for the price, would buy again                       
+Unicorn Horn Polish                   2          This is the best thing I have ever bought!                       
+Unicorn Horn Polish                   9          I am really happy with this purchase, it exceeded my expectations
+Unicorn Horn Polish                   12         I would definitely buy this again, great value for the price     
+The Mind Probe                                                                                                    
+Lightsabers                                                                                                       
+The Sonic Screwdriver                                                                                             
+The Infinite Improbability Generator                                                                              
+The Neuralyzer                                                                                                    
+
+product_id  name                                  review_text
+----------  ------------------------------------  -----------
+6           The Mind Probe                                   
+7           Lightsabers                                      
+8           The Sonic Screwdriver                            
+9           The Infinite Improbability Generator             
+10          The Neuralyzer                                   
+
+product_id  name                                  review_count
+----------  ------------------------------------  ------------
+3           Cat-Poop Coffee                       3           
+5           Unicorn Horn Polish                   3           
+1           Atomic Nose Hair Trimmer              2           
+2           Selfie Toaster                        2           
+4           Inflatable Briefcase                  2           
+6           The Mind Probe                        0           
+7           Lightsabers                           0           
+8           The Sonic Screwdriver                 0           
+9           The Infinite Improbability Generator  0           
+10          The Neuralyzer                        0           
+
+name                      review_id  review_text                                                        datetime           
+------------------------  ---------  -----------------------------------------------------------------  -------------------
+Atomic Nose Hair Trimmer  5          Decent product for the price, happy with my purchase               2022-01-05 16:30:00
+Selfie Toaster            6          Really impressed with the quality of this product!                 2022-01-06 17:00:00
+Inflatable Briefcase      7          Great value for the price, would buy again                         2022-01-07 18:15:00
+Cat-Poop Coffee           8          Not the best quality, but it gets the job done                     2022-01-08 19:00:00
+Unicorn Horn Polish       9          I am really happy with this purchase, it exceeded my expectations  2022-01-09 20:30:00
+Atomic Nose Hair Trimmer  10         Would not recommend this product, very disappointing               2022-01-10 21:00:00
+Cat-Poop Coffee           11         This product is great, I use it every day!                         2022-01-11 22:15:00
+Unicorn Horn Polish       12         I would definitely buy this again, great value for the price       2022-01-12 23:00:00
+
+name                      review_text                                           datetime           
+------------------------  ----------------------------------------------------  -------------------
+Inflatable Briefcase      Disappointing purchase. Wouldn't buy again.           2022-01-04 15:00:00
+Atomic Nose Hair Trimmer  Would not recommend this product, very disappointing  2022-01-10 21:00:00
+
+      
+product_id  name                  price  review_count
+----------  --------------------  -----  ------------
+2           Selfie Toaster        24.99  2           
+3           Cat-Poop Coffee       29.99  3           
+4           Inflatable Briefcase  39.99  2           
+
+name                                  ct
+------------------------------------  --
+Atomic Nose Hair Trimmer              2 
+Cat-Poop Coffee                       3 
+Inflatable Briefcase                  2 
+Lightsabers                           0 
+Selfie Toaster                        2 
+The Infinite Improbability Generator  0 
+The Mind Probe                        0 
+The Neuralyzer                        0 
+The Sonic Screwdriver                 0 
+Unicorn Horn Polish                   3 
+
+name                 ct
+-------------------  --
+Cat-Poop Coffee      3 
+Unicorn Horn Polish  3 
+
