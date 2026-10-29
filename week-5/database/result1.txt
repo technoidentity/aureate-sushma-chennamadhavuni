@@ -1,0 +1,111 @@
+product_id  name                                  description                                                                                                            price  manufacturer       
+----------  ------------------------------------  ---------------------------------------------------------------------------------------------------------------------  -----  -------------------
+1           Atomic Nose Hair Trimmer              Trim your nose hairs with the precision of an atomic clock!                                                            19.99  Mad Inventors Inc. 
+2           Selfie Toaster                        Get your face on your toast every morning with our selfie toaster!                                                     24.99  Goofy Gadgets Corp.
+3           Cat-Poop Coffee                       The only coffee made from the finest cat poop beans!                                                                   29.99  Absurd Accessories 
+4           Inflatable Briefcase                  Need more storage space? Inflate our briefcase to double its size!                                                     39.99  Wacky Wares Ltd.   
+5           Unicorn Horn Polish                   Keep your unicorn's horn shiny and smooth with our magical polish!                                                     9.99   Silly Supplies Co. 
+6           The Mind Probe                        A device from Star Wars that can extract information directly from a person's mind.                                    19.99  Mad Inventors Inc. 
+7           Lightsabers                           Elegant and deadly energy swords wielded by Jedi and Sith alike.                                                       25     Mad Inventors Inc. 
+8           The Sonic Screwdriver                 A versatile tool capable of performing a wide variety of tasks, from unlocking doors to repairing electronics.         15.1   Absurd Accessories 
+9           The Infinite Improbability Generator  A device that can create impossible and absurd events, such as a spaceship suddenly turning into a giant sperm whale.  9.99   Silly Supplies Co. 
+10          The Neuralyzer                        A flashy device that erases people's memories of specific events or encounters.                                        33.55  Silly Supplies Co. 
+
+name                                  product_id
+------------------------------------  ----------
+Atomic Nose Hair Trimmer              1         
+Selfie Toaster                        2         
+Cat-Poop Coffee                       3         
+Inflatable Briefcase                  4         
+Unicorn Horn Polish                   5         
+The Mind Probe                        6         
+Lightsabers                           7         
+The Sonic Screwdriver                 8         
+The Infinite Improbability Generator  9         
+The Neuralyzer                        10        
+
+product_id  name         description                                                       price  manufacturer      
+----------  -----------  ----------------------------------------------------------------  -----  ------------------
+7           Lightsabers  Elegant and deadly energy swords wielded by Jedi and Sith alike.  25     Mad Inventors Inc.
+
+total_products
+--------------
+10            
+
+-----------CHAPTER 2--------------------
+
+name                
+--------------------
+Selfie Toaster      
+Cat-Poop Coffee     
+Inflatable Briefcase
+Lightsabers         
+The Neuralyzer      
+
+name                    
+------------------------
+Atomic Nose Hair Trimmer
+The Mind Probe          
+Lightsabers             
+
+name                                
+------------------------------------
+Unicorn Horn Polish                 
+The Infinite Improbability Generator
+The Sonic Screwdriver               
+Atomic Nose Hair Trimmer            
+The Mind Probe                      
+Selfie Toaster                      
+Lightsabers                         
+Cat-Poop Coffee                     
+The Neuralyzer                      
+Inflatable Briefcase 
+
+name                                  price
+------------------------------------  -----
+Unicorn Horn Polish                   9.99 
+The Infinite Improbability Generator  9.99 
+The Sonic Screwdriver                 15.1 
+Atomic Nose Hair Trimmer              19.99
+The Mind Probe                        19.99
+Selfie Toaster                        24.99
+Lightsabers                           25   
+Cat-Poop Coffee                       29.99
+The Neuralyzer                        33.55
+Inflatable Briefcase                  39.99
+
+name          
+--------------
+The Neuralyzer
+
+name                
+--------------------
+Selfie Toaster      
+Cat-Poop Coffee     
+Inflatable Briefcase
+Lightsabers         
+
+----------------------------------------------------------------------chapter 3---------------------------------------------------------------------------------------
+
+emp_id  name          department  salary  joining_date
+------  ------------  ----------  ------  ------------
+1       John Doe      Sales       50000   2020-01-15  
+2       Jane Smith    Marketing   60000   2019-03-22  
+3       Mike Johnson  IT          75000   2021-07-10  
+4       Emily Davis   HR          55000   2018-11-05  
+5       David Wilson  Finance     70000   2020-06-30  
+
+emp_id  name          department  salary  joining_date  email
+------  ------------  ----------  ------  ------------  -----
+1       John Doe      Sales       50000   2020-01-15         
+2       Jane Smith    Marketing   60000   2019-03-22         
+3       Mike Johnson  IT          75000   2021-07-10         
+4       Emily Davis   HR          55000   2018-11-05         
+5       David Wilson  Finance     70000   2020-06-30         
+
+aureate/week-5/database on  sushma53 [$!?] 
+❯ sqlite3 -header -column chapter_01/chapter01_practice.db < output1.sql >> result1.txt
+Parse error near line 35: no such table: employees
+
+----------------------------------------------------------------------chapter 4---------------------------------------------------------------------------------------
+
