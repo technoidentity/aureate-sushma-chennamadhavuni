@@ -1,0 +1,14 @@
+# Rust build artifacts
+**/target/
+
+# Rust generated files
+**/*.rs.bk
+
+# Environment files
+.env
+.env.*
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
